@@ -4,7 +4,11 @@ namespace Lab_2_5
 {
 	class Program
 	{
-		//text compression
+		/*
+		   Task:
+		   A simple text compression algorithm is based on replacing repetitive letters with one letter and the number of repeating letters. 
+		   Compress the input line.
+		*/
 		static string ConvertStr(string str, int pos, char c, int k, string str2)
 		{
 			if (pos < str.Length)
