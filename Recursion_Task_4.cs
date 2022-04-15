@@ -4,6 +4,10 @@ namespace Lab_2_4
 {
 	class Program
 	{
+		/*
+		   Task:
+		   Enter a line from the console. Bring it to the console in reverse order.
+		*/
 		static void ReverseString(char[] str, int number)
 		{
 			Console.Write(str[number]);
