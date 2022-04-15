@@ -11,7 +11,7 @@ namespace Lab_4_1
             /*
               Task:
               Stack <T>. The text file contains a mathematical expression. You need to check the balance of parentheses in the expression:
-              (a+2)*4*(a-3)/(2-7+6)
+              (a+2)-4*(a-3)/(2-7+6)
             */
             char[] charsMass;
             using (StreamReader sr = new StreamReader("../../../text.txt"))
