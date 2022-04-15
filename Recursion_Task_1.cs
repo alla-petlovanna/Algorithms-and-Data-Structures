@@ -4,6 +4,10 @@ namespace Lab_2_1
 {
 	class Program
 	{
+		/*
+		   Task:
+		   Implement a recursive algorithm for calculating 10 elements of the row
+		*/
 		static void Row(int number)
 		{
 			double x = (number - 1) / F(number);
