@@ -4,6 +4,10 @@ namespace Lab_2_3
 {
 	class Program
 	{
+		/*
+		   Task:
+		   Implement a recursive algorithm for calculating the product of numbers from 1 to 50.
+		*/
 		static double Pr(double n)
 		{
 			if (n <= 1) return 1; //base case
